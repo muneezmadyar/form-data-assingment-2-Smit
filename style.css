@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #120410;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main{
+    margin: 5% auto;
+    text-align: center;
+}
+
+.main h1 {
+    color: white;
+    padding: 0% 0 5%;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+input {
+    width: 500px;
+    padding: 15px 15px;
+    margin: 1% 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.add {
+    background-color: transparent;
+    border: 2px solid #F77B55;
+    border-radius: 12px;
+    color: #F77B55;
+    padding: 13px 30px;
+    cursor: pointer;
+    margin: 5% auto 0;
+    display: block;
+    font-Weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    letter-spacing: 1%;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+.add:hover{
+    background-color: #F77B55;
+    color: white;
+    transition: 0.5s; 
+}
+
+
+
+/* <----------------------------------sec-1------------------------------------> */
+
+
+#sec-1 {
+    background-color: #120410;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+#sec-1 h1 {
+    text-align: center;
+    padding: 5% 0 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+
+#sec-1 .table-wrapper {
+    overflow-x: auto;
+    text-align: center;
+    margin: 4% 0 0;
+    background-color: #120410;
+}
+
+#sec-1 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sec-1 table thead {
+    box-shadow: 0px 4px 7px 2px #ffffff17;
+
+}
+
+#sec-1 table tr th{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#sec-1 th,
+td {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#sec-1 th {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#sec-1 td {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 16px 0;
+}
+
+#sec-1 button {
+    background-color: transparent;
+    border: 2px solid #F77B55;
+    border-radius: 12px;
+    color: #F77B55;
+    padding: 13px 30px;
+    cursor: pointer;
+    margin: 5% auto 0;
+    display: block;
+    font-Weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+#sec-1 button:hover {
+    background-color: #F77B55;
+    color: white;
+    transition: 0.5s;
+
+}
+
+/* <----------------------------------sec-1------------------------------------> */
+@media only screen and (min-width:320px) and (max-width:767px){
+    input {
+        width: 95%;
+        padding: 15px 15px;
+        margin: 1% 0;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    .main h1 {
+        color: white;
+        padding: 0% 0 5%;
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+    #sec-1 h1 {
+        text-align: center;
+        padding: 5% 0 0;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 37px;
+        letter-spacing: 0px;
+        color: #ffffff;
+    }
+    
+    #sec-1 th {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    #sec-1 td {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 16px 0;
+    }    
+}
